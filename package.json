@@ -1,0 +1,43 @@
+{
+  "name": "pi-omp-ui",
+  "version": "0.1.0",
+  "description": "Oh My Pi-inspired presentation layer for normal Pi",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebink/omp_ui_ux_for_pi.git"
+  },
+  "homepage": "https://github.com/rebink/omp_ui_ux_for_pi#readme",
+  "bugs": {
+    "url": "https://github.com/rebink/omp_ui_ux_for_pi/issues"
+  },
+  "keywords": [
+    "pi-package",
+    "pi-coding-agent",
+    "terminal-ui",
+    "theme"
+  ],
+  "files": [
+    "extensions",
+    "themes",
+    "assets",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/omp-ui.ts"
+    ],
+    "themes": [
+      "./themes/omp-titanium.json"
+    ],
+    "image": "https://raw.githubusercontent.com/rebink/omp_ui_ux_for_pi/main/assets/screenshot.png"
+  }
+}

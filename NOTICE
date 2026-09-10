@@ -1,0 +1,7 @@
+pi-omp-ui is an independent presentation-layer extension for Pi.
+
+The Titanium palette and visual behavior were adapted from Oh My Pi:
+https://github.com/can1357/oh-my-pi
+
+Oh My Pi is MIT-licensed. Its copyright notices are retained in LICENSE.
+No Oh My Pi runtime code, agent architecture, or dependency is included.
